@@ -1,0 +1,13 @@
+.git
+.venv
+.packages
+.pip-cache
+.tmp
+__pycache__
+data/raw
+data/audio
+*.db
+*.db-wal
+*.db-shm
+pip-*
+preview-check.mp3

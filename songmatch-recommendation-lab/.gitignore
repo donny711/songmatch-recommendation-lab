@@ -1,0 +1,62 @@
+# Python environments and local dependencies
+.venv/
+venv/
+.packages/
+.pip-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and development caches
+.pytest_cache/
+.pytest_cache_tmp/
+pytest-cache-files-*/
+.coverage
+.coverage.*
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+.tmp/
+pip-*/
+
+# Secrets and machine-local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private study data and downloads (clean catalog CSVs remain included)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-shm
+*.sqlite3-wal
+data/raw/
+data/audio/
+data/private/
+reports/private/
+backups/
+exports/
+songmatch-session-metrics.csv
+songmatch-method-summary.csv
+*.zip
+
+# Environment-specific build helpers and probes
+install_local.py
+download_probe.py
+zip-tail.bin
+local_check.py
+preview-check.mp3
+fetch_fma.py
+finalize_local.py

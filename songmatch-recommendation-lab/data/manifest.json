@@ -1,0 +1,202 @@
+{
+  "input_rows": 2000,
+  "missing_values": {
+    "song_id": 0,
+    "title": 0,
+    "artist": 0,
+    "genre": 0,
+    "tempo": 0,
+    "energy": 0,
+    "danceability": 0,
+    "valence": 0,
+    "acousticness": 0
+  },
+  "invalid_or_incomplete_rows": 0,
+  "duplicate_ids": 0,
+  "duplicate_artist_title": 0,
+  "usable_rows": 2000,
+  "genres": {
+    "rock": 768,
+    "electronic": 405,
+    "pop": 180,
+    "hip-hop": 163,
+    "folk": 135,
+    "old-time / historic": 87,
+    "classical": 56,
+    "jazz": 37,
+    "adult standards": 27,
+    "international": 25,
+    "instrumental": 19,
+    "soul": 19,
+    "permanent wave": 15,
+    "british invasion": 12,
+    "blues": 10,
+    "neo mellow": 10,
+    "reggae": 7,
+    "experimental": 5,
+    "funk": 5,
+    "mellow gold": 4,
+    "country": 4,
+    "disco": 2,
+    "australian psych": 2,
+    "icelandic indie": 1,
+    "ccm": 1,
+    "latin": 1
+  },
+  "dataset_version": "songmatch-a7184e0d6086ddc1-all",
+  "scope_versions": {
+    "popular": "songmatch-a7184e0d6086ddc1-popular",
+    "all": "songmatch-a7184e0d6086ddc1-all"
+  },
+  "source_counts": {
+    "fma": 1500,
+    "popular": 500
+  },
+  "artists": 1068,
+  "popular": {
+    "input_rows": 1994,
+    "missing_values": {
+      "song_id": 0,
+      "title": 0,
+      "artist": 0,
+      "genre": 0,
+      "tempo": 0,
+      "energy": 0,
+      "danceability": 0,
+      "valence": 0,
+      "acousticness": 0
+    },
+    "invalid_or_incomplete_rows": 0,
+    "duplicate_ids": 0,
+    "duplicate_artist_title": 0,
+    "usable_rows": 1994,
+    "genres": {
+      "rock": 955,
+      "pop": 393,
+      "adult standards": 123,
+      "dutch indie": 75,
+      "electronic": 55,
+      "dutch cabaret": 51,
+      "soul": 45,
+      "permanent wave": 38,
+      "british invasion": 36,
+      "hip-hop": 30,
+      "folk": 25,
+      "disco": 18,
+      "funk": 18,
+      "neo mellow": 17,
+      "reggae": 12,
+      "country": 12,
+      "dutch americana": 12,
+      "mellow gold": 11,
+      "carnaval limburg": 10,
+      "chanson": 9,
+      "blues": 8,
+      "celtic": 5,
+      "dutch prog": 5,
+      "downtempo": 4,
+      "classic schlager": 3,
+      "christelijk": 3,
+      "jazz": 3,
+      "latin": 2,
+      "australian psych": 2,
+      "basshall": 1,
+      "levenslied": 1,
+      "motown": 1,
+      "bebop": 1,
+      "alaska indie": 1,
+      "stomp and holler": 1,
+      "laboratorio": 1,
+      "latin alternative": 1,
+      "classic soundtrack": 1,
+      "icelandic indie": 1,
+      "streektaal": 1,
+      "ccm": 1,
+      "australian americana": 1,
+      "j-core": 1
+    },
+    "source_missing_values": {
+      "Index": 0,
+      "Title": 0,
+      "Artist": 0,
+      "Top Genre": 0,
+      "Year": 0,
+      "Beats Per Minute (BPM)": 0,
+      "Energy": 0,
+      "Danceability": 0,
+      "Valence": 0,
+      "Acousticness": 0,
+      "Popularity": 0
+    },
+    "selected_rows": 500,
+    "catalog_artist_cap": 12,
+    "anchor_artists": [
+      "Dua Lipa",
+      "Taylor Swift"
+    ],
+    "selected_artists": 265,
+    "popularity_range": [
+      66.0,
+      100.0
+    ],
+    "selected_genres": {
+      "rock": 251,
+      "pop": 108,
+      "adult standards": 27,
+      "soul": 19,
+      "permanent wave": 15,
+      "hip-hop": 15,
+      "british invasion": 12,
+      "neo mellow": 10,
+      "electronic": 10,
+      "reggae": 7,
+      "folk": 6,
+      "funk": 5,
+      "country": 4,
+      "mellow gold": 4,
+      "australian psych": 2,
+      "disco": 2,
+      "ccm": 1,
+      "latin": 1,
+      "icelandic indie": 1
+    }
+  },
+  "sources": {
+    "popular": {
+      "publisher": "Sumit (iamsumat)",
+      "url": "https://www.kaggle.com/datasets/iamsumat/spotify-top-2000s-mega-dataset",
+      "version": 5,
+      "license": "CC0: Public Domain (publisher declaration)",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "raw_sha256": "0ee00d80e061775461de6f1642b59e7b9293c5f8899c5575b745a9050e5c3888",
+      "raw_filename": "Spotify-2000.csv"
+    },
+    "fma": {
+      "url": "https://github.com/mdeff/fma",
+      "license": "CC BY 4.0",
+      "base_sha256": "3f0c74da405644d3d05709ac7852283133167761cf8f4ad13d43f9f14f61b138"
+    }
+  },
+  "feature_ranges": {
+    "tempo": [
+      33.616,
+      250.059
+    ],
+    "energy": [
+      0.0019500074,
+      0.9992363138
+    ],
+    "danceability": [
+      0.0555955247,
+      0.9668831644
+    ],
+    "valence": [
+      0.0241882629,
+      0.99999
+    ],
+    "acousticness": [
+      0.0,
+      0.9957964501
+    ]
+  }
+}

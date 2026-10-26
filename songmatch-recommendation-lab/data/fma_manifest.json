@@ -1,0 +1,80 @@
+{
+  "input_rows": 5281,
+  "missing_values": {
+    "song_id": 0,
+    "title": 0,
+    "artist": 0,
+    "genre": 0,
+    "tempo": 0,
+    "energy": 0,
+    "danceability": 0,
+    "valence": 0,
+    "acousticness": 0
+  },
+  "invalid_or_incomplete_rows": 0,
+  "duplicate_ids": 0,
+  "duplicate_artist_title": 39,
+  "usable_rows": 5242,
+  "genres": {
+    "rock": 1817,
+    "electronic": 1383,
+    "hip-hop": 530,
+    "folk": 422,
+    "old-time / historic": 318,
+    "pop": 230,
+    "classical": 174,
+    "jazz": 145,
+    "international": 107,
+    "instrumental": 55,
+    "blues": 44,
+    "experimental": 17
+  },
+  "tracks_source_rows": 106574,
+  "echonest_source_rows": 13129,
+  "joined_rows": 13129,
+  "sample_rows": 1500,
+  "sample_seed": 42,
+  "dataset_version": "fma-1500-3f0c74da405644d3",
+  "source_sha256": {
+    "tracks.csv": "f73260fd112b8cd42bcd4f7c8918fc66b19d9d4c7b97f4faedce524b59e95d6b",
+    "echonest.csv": "cc2f9f40d284731e8da56cd37bddde402d27e95754eacbef879efbee1eddd596",
+    "genres.csv": "cbd1d1b8f8922b2164f22ca0eacab23fe7107a283586026cf74dbc259b471da2"
+  },
+  "sample_genres": {
+    "rock": 517,
+    "electronic": 395,
+    "hip-hop": 148,
+    "folk": 129,
+    "old-time / historic": 87,
+    "pop": 72,
+    "classical": 56,
+    "jazz": 37,
+    "international": 25,
+    "instrumental": 19,
+    "blues": 10,
+    "experimental": 5
+  },
+  "sample_artists": 803,
+  "feature_ranges": {
+    "tempo": [
+      33.616,
+      250.059
+    ],
+    "energy": [
+      0.0019500074,
+      0.9992363138
+    ],
+    "danceability": [
+      0.0555955247,
+      0.9668831644
+    ],
+    "valence": [
+      0.0241882629,
+      0.99999
+    ],
+    "acousticness": [
+      9.575e-07,
+      0.9957964501
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  songmatch:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      SONGMATCH_DB_PATH: /var/lib/songmatch/feedback.db
+      SONGMATCH_PHASE: pilot
+    volumes:
+      - songmatch-data:/var/lib/songmatch
+    restart: unless-stopped
+volumes:
+  songmatch-data:
